@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import Navbar from './Navbar';
 
 function Layout({ children }) {
   return (
     <div>
-      {/* Insert navbar here */}
+      <Navbar />
       <div>
         {/* Content for each page */}
         { children }
