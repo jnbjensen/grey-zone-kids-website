@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="w-full bg-white shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
         <div>
-          <div className="flex items-center justify-around py-3 md:py-1 md:block">
+          <div className="flex items-center justify-between py-3 md:py-1 md:block">
             <img src="./public/images/greyzonekids-logo.png" alt="Site logo" className="w-32" />
             <div className="md:hidden">
               <button
@@ -54,7 +54,7 @@ function Navbar() {
               navbar ? 'block' : 'hidden'
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <ul className="flex flex-col md:flex-row items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600 hover:border-blue-600 hover:border-b-2">
                 <a href="/">Home</a>
               </li>

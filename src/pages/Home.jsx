@@ -7,7 +7,7 @@ function Home() {
       <section className="bg-hero bg-no-repeat bg-cover bg-center bg-fixed h-screen flex">
         <div className="border-neutral-200 flex flex-col justify-start items-center rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border my-72 mx-8">
           <h1 className="text-neutral-100 font-bold text-3xl py-8">WELCOME</h1>
-          <p className="text-neutral-200 max-w-2xl px-12">
+          <p className="text-neutral-200 max-w-2xl px-12 font-semibold">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, minima magni dolorem
             non similique veniam cumque adipisci deleniti commodi voluptatem, facilis nihil sequi,
             dolor possimus magnam assumenda perspiciatis debitis consectetur.
