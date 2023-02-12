@@ -8,7 +8,7 @@ function Navbar() {
       <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-1 md:block">
-            <img src="./public/images/greyzonekids-logo.png" alt="Site logo" className="w-32" />
+            <img src="./images/greyzonekids-logo.png" alt="Site logo" className="w-32" />
             <div className="md:hidden">
               <button
                 type="button"
