@@ -50,13 +50,13 @@ function Home() {
             <img src="images/Orchid.png" alt="An orchid" className="w-20 my-0 mx-auto" />
             <h4 className="text-left text-lg font-bold mx-0 my-auto">ORCHIDS</h4>
           </div>
-          <p className="max-w-2xl mx-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem distinctio laborum enim, reprehenderit, facere soluta quis necessitatibus ipsam similique omnis aperiam blanditiis nesciunt. Possimus voluptatibus ipsum deleniti tempora eveniet fuga!</p>
-
+          <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem distinctio laborum enim, reprehenderit, facere soluta quis necessitatibus ipsam similique omnis aperiam blanditiis nesciunt. Possimus voluptatibus ipsum deleniti tempora eveniet fuga!</p>
         </div>
-        {/* ORCHID KIDS */}
+        {/* SPECTRUM FIGURE */}
         <div>
           <figure className="bg-white my-4 mx-auto rounded-lg shadow-lg max-w-xl p-2">
             <h5 className="text-center text-2xl font-bold my-4">A WIDER SPECTRUM OF SENSATIONS AND EMOTIONS</h5>
+            <p className="max-w-2xl m-4 p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate voluptates quos repellendus sunt numquam perspiciatis sequi at earum ex delectus consequuntur, aspernatur deserunt, facere, ut rerum ipsam hic corporis!</p>
             <img src="images/Spectrum.png" alt="Intensity range of sensations and emotions, grey zone kids versus neurotypicals" className="my-0 mx-auto " />
           </figure>
         </div>
