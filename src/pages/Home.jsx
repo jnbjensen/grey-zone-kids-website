@@ -6,8 +6,8 @@ function Home() {
   return (
     <Layout>
       {/* HERO SECTION */}
-      <section className="bg-hero bg-no-repeat bg-top md:bg-top-left bg-cover bg-local flex justify-start items-end">
-        <div className="border-neutral-200 flex flex-col items-center rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border my-72 mx-4">
+      <section className="bg-hero bg-no-repeat bg-top md:bg-top-left bg-cover bg-local flex justify-start items-center h-screen px-4 md:px-12 py-12 md:py-24">
+        <div className="border-neutral-200 flex flex-col items-center rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-30 border max-w-lg">
           <h1 className="text-neutral-100 font-bold text-3xl py-6">WELCOME</h1>
           <p className="text-neutral-200 max-w-2xl px-6 font-semibold">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, minima magni dolorem
@@ -50,13 +50,13 @@ function Home() {
             <img src="images/Orchid.png" alt="An orchid" className="w-20 my-0 mx-auto" />
             <h4 className="text-left text-lg font-bold mx-0 my-auto">ORCHIDS</h4>
           </div>
-          <p className="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem distinctio laborum enim, reprehenderit, facere soluta quis necessitatibus ipsam similique omnis aperiam blanditiis nesciunt. Possimus voluptatibus ipsum deleniti tempora eveniet fuga!</p>
+          <p className="max-w-2xl mx-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem distinctio laborum enim, reprehenderit, facere soluta quis necessitatibus ipsam similique omnis aperiam blanditiis nesciunt. Possimus voluptatibus ipsum deleniti tempora eveniet fuga!</p>
         </div>
         {/* SPECTRUM FIGURE */}
         <div>
           <figure className="bg-white my-4 mx-auto rounded-lg shadow-lg max-w-xl p-2">
-            <h5 className="text-center text-2xl font-bold my-4">A WIDER SPECTRUM OF SENSATIONS AND EMOTIONS</h5>
-            <p className="max-w-2xl m-4 p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate voluptates quos repellendus sunt numquam perspiciatis sequi at earum ex delectus consequuntur, aspernatur deserunt, facere, ut rerum ipsam hic corporis!</p>
+            <h5 className="text-center text-2xl font-bold my-4">A WIDER SPECTRUM</h5>
+            <p className="max-w-2xl m-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate voluptates quos repellendus sunt numquam perspiciatis sequi at earum ex delectus consequuntur, aspernatur deserunt, facere, ut rerum ipsam hic corporis!</p>
             <img src="images/Spectrum.png" alt="Intensity range of sensations and emotions, grey zone kids versus neurotypicals" className="my-0 mx-auto " />
           </figure>
         </div>
