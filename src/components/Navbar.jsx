@@ -57,23 +57,18 @@ function Navbar() {
           >
             <ul className="flex flex-col md:flex-row items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600 hover:border-blue-600 hover:border-b-2">
-                {/* <a href="/">Home</a> */}
                 <Link to="/">Home</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600 hover:border-blue-600 hover:border-b-2">
-                {/* <a href="/about">About</a> */}
                 <Link to="/about">About</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600 hover:border-blue-600 hover:border-b-2">
-                {/* <a href="/resources">Resources</a> */}
                 <Link to="/resources">Resources</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600 hover:border-blue-600 hover:border-b-2">
-                {/* <a href="/blog">Blog</a> */}
                 <Link to="/blog">Blog</Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600 hover:border-blue-600 hover:border-b-2">
-                {/* <a href="/book">Book</a> */}
                 <Link to="/book">Book</Link>
               </li>
             </ul>
